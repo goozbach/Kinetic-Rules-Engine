@@ -19,3 +19,4 @@ parser/semantic.cache
 *.bak
 /i386-linux*
 workspace.txt
+.vagrant/
