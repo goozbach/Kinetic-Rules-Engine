@@ -1,0 +1,28 @@
+---
+- name: recreate install07.sh
+  hosts: all
+
+  vars:
+    perl_packages:
+      - perl-Crypt-OpenSSL-X509.x86_64
+      - perl-Devel-Size
+      - libapreq2.x86_64
+      - perl-Geo-IP
+
+    cpan_packages:
+      - "Test::WWW::Mechanize" 
+      - "Apache::Session::Memcached"
+      - "Inline::Java"
+
+  tasks:
+
+    - name: install repoforge release
+      yum: name="http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.3-1.el7.rf.x86_64.rpm" state=installed
+
+    - name: install rpm packages
+      yum: name={{ item }} state=installed
+      with_items: "{{ perl_packages }}"
+      
+    - name: install cpan packages
+      cpanm: name={{ item }}
+      with_items: "{{ cpan_packages }}"
