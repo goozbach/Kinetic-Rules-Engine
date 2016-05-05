@@ -1,0 +1,53 @@
+---
+- name: recreate install00
+  hosts: all
+
+  vars:
+    default_user: web
+    package_list:
+      - autoconf
+      - bzip2
+      - curl-devel
+      - expat-devel
+      - gcc
+      - git
+      - groff
+      - java-1.6.0-openjdk
+      - java-1.6.0-openjdk-devel
+      - libevent-devel
+      - libxml2-devel
+      - make
+      - memcached
+      - mlocate
+      - neon-devel
+      - openssl-devel
+      - perl
+      - perl-devel
+      - perl-CPAN
+      - perl-ExtUtils-CBuilder
+      - perl-ExtUtils-Embed
+      - perl-ExtUtils-MakeMaker
+      - subversion
+      - subversion-devel
+      - subversion-perl
+      - sudo
+      - wget
+      - yum 
+      - words
+      - zlib-devel
+
+  tasks:
+
+    - name: install packages
+      yum: name={{ item }} state=installed
+      with_items: "{{ package_list }}"
+
+    - name: create default user
+      user: name={{ default_user }} state=present home=/{{ default_user }}
+
+    - name: create directories
+      file: path=/{{ default_user }}/{{ item }} state=directory owner={{ default_user }} group={{ default_user }}
+      with_items:
+        - logs
+        - src
+        - etc
