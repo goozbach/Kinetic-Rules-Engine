@@ -1,0 +1,13 @@
+---
+- name: recreate install01.sh
+  hosts: all
+
+  vars:
+    default_user: web
+    kobj_root: "/{{ default_user }}/lib/perl"
+    web_root: "/{{ default_user }}"
+    java_home: '/usr/lib/jvm/java-1.6.0-openjdk.x86_64'
+
+  tasks:
+    - name: template bashrc
+      template: src=templates/bashrc.j2 dest=~{{ default_user }}/.bashrc
