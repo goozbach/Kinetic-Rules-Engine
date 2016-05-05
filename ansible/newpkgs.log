@@ -1,0 +1,602 @@
+perl-AnyEvent-7.07-3.el7.x86_64 : Framework for multiple event loops
+Repo        : epel
+Matched from:
+Provides    : perl(AnyEvent) = 7.07
+
+
+
+perl-AnyEvent-HTTP-2.22-1.el7.noarch : Simple but non-blocking HTTP/HTTPS client
+Repo        : epel
+Matched from:
+Provides    : perl(AnyEvent::HTTP) = 2.22
+
+
+
+mod_perl-2.0.8-10.20140624svn1602105.el7.x86_64 : An embedded Perl interpreter
+                                                : for the Apache HTTP Server
+Repo        : epel
+Matched from:
+Provides    : perl(Apache2::RequestRec) = 2.000009
+
+
+
+mod_perl-2.0.8-10.20140624svn1602105.el7.x86_64 : An embedded Perl interpreter
+                                                : for the Apache HTTP Server
+Repo        : @epel
+Matched from:
+Provides    : perl(Apache2::RequestRec) = 2.000009
+
+
+
+perl-Apache-DBI-1.12-1.el7.noarch : Persistent database connections with
+                                  : Apache/mod_perl
+Repo        : epel
+Matched from:
+Provides    : perl(Apache::DBI) = 1.12
+
+
+
+perl-Apache-Session-1.93-2.el7.noarch : Persistence framework for session data
+Repo        : epel
+Matched from:
+Provides    : perl(Apache::Session::DB_File) = 1.01
+
+
+
+mod_perl-2.0.8-10.20140624svn1602105.el7.x86_64 : An embedded Perl interpreter
+                                                : for the Apache HTTP Server
+Repo        : epel
+Matched from:
+Provides    : perl(APR::Table) = 0.009000
+
+
+
+mod_perl-2.0.8-10.20140624svn1602105.el7.x86_64 : An embedded Perl interpreter
+                                                : for the Apache HTTP Server
+Repo        : @epel
+Matched from:
+Provides    : perl(APR::Table) = 0.009000
+
+
+
+perl-BSD-Resource-1.29.07-1.el7.x86_64 : BSD process resource limit and priority
+                                       : functions
+Repo        : epel
+Matched from:
+Provides    : perl(BSD::Resource) = 1.2907
+
+
+
+perl-BSD-Resource-1.29.07-1.el7.x86_64 : BSD process resource limit and priority
+                                       : functions
+Repo        : @epel
+Matched from:
+Provides    : perl(BSD::Resource) = 1.2907
+
+
+
+mod_perl-2.0.8-10.20140624svn1602105.el7.x86_64 : An embedded Perl interpreter
+                                                : for the Apache HTTP Server
+Repo        : epel
+Matched from:
+Provides    : perl(Bundle::Apache2) = 1.00
+
+
+
+mod_perl-2.0.8-10.20140624svn1602105.el7.x86_64 : An embedded Perl interpreter
+                                                : for the Apache HTTP Server
+Repo        : @epel
+Matched from:
+Provides    : perl(Bundle::Apache2) = 1.00
+
+
+
+perl-Cache-Memcached-1.30-8.el7.noarch : Perl client for memcached
+Repo        : epel
+Matched from:
+Provides    : perl(Cache::Memcached) = 1.30
+
+
+
+perl-CGI-3.63-4.el7.noarch : Handle Common Gateway Interface requests and
+                           : responses
+Repo        : base
+Matched from:
+Provides    : perl(CGI)
+
+
+
+perl-Clone-0.34-5.el7.x86_64 : Recursively copy perl data types
+Repo        : base
+Matched from:
+Provides    : perl(Clone) = 0.34
+
+
+
+perl-IO-Compress-2.061-2.el7.noarch : Read and write compressed data
+Repo        : base
+Matched from:
+Provides    : perl(Compress::Zlib) = 2.061
+
+
+
+perl-IO-Compress-2.061-2.el7.noarch : Read and write compressed data
+Repo        : @base
+Matched from:
+Provides    : perl(Compress::Zlib) = 2.061
+
+
+
+perl-Crypt-OpenSSL-RSA-0.28-7.el7.x86_64 : Perl interface to OpenSSL for RSA
+Repo        : base
+Matched from:
+Provides    : perl(Crypt::OpenSSL::RSA) = 0.28
+
+
+
+perl-Crypt-OpenSSL-X509-1.803-4.el7.x86_64 : Perl interface to OpenSSL for X509
+Repo        : epel
+Matched from:
+Provides    : perl(Crypt::OpenSSL::X509) = 1.803
+
+
+
+perl-Data-Dumper-2.145-3.el7.x86_64 : Stringify perl data structures, suitable
+                                    : for printing and eval
+Repo        : base
+Matched from:
+Provides    : perl(Data::Dumper) = 2.145
+
+
+
+perl-Data-Dumper-2.145-3.el7.x86_64 : Stringify perl data structures, suitable
+                                    : for printing and eval
+Repo        : @base
+Matched from:
+Provides    : perl(Data::Dumper) = 2.145
+
+
+
+perl-Data-OptList-0.107-9.el7.noarch : Parse and validate simple name/value
+                                     : option pairs
+Repo        : base
+Matched from:
+Provides    : perl(Data::OptList) = 0.107
+
+
+
+perl-Data-UUID-1.219-3.el7.x86_64 : Globally/Universally Unique Identifiers
+                                  : (GUIDs/UUIDs)
+Repo        : epel
+Matched from:
+Provides    : perl(Data::UUID) = 1.219
+
+
+
+uuid-perl-1.6.2-26.el7.x86_64 : Perl support for Universally Unique Identifier
+                              : library
+Repo        : base
+Matched from:
+Provides    : perl(Data::UUID) = 1.6.2
+
+
+
+2:perl-DateTime-1.04-5.el7.x86_64 : Date and time object
+Repo        : base
+Matched from:
+Provides    : perl(DateTime) = 1.04
+
+
+
+perl-DateTime-Format-HTTP-0.40-8.el7.noarch : HTTP protocol date conversion
+                                            : routines
+Repo        : epel
+Matched from:
+Provides    : perl(DateTime::Format::HTTP) = 0.40
+
+
+
+perl-DateTime-Format-ISO8601-0.08-4.el7.noarch : Parses ISO8601 formats
+Repo        : epel
+Matched from:
+Provides    : perl(DateTime::Format::ISO8601) = 0.08
+
+
+
+perl-DateTime-Format-Mail-0.3001-17.el7.noarch : Convert between DateTime and
+                                               : RFC2822/822 formats
+Repo        : epel
+Matched from:
+Provides    : perl(DateTime::Format::Mail) = 0.3001
+
+
+
+perl-DateTime-Format-RFC3339-1.0.5-1.el7.noarch : Parse and format RFC3339
+                                                : datetime strings
+Repo        : epel
+Matched from:
+Provides    : perl(DateTime::Format::RFC3339)
+
+
+
+perl-Digest-MD5-2.52-3.el7.x86_64 : Perl interface to the MD5 algorithm
+Repo        : base
+Matched from:
+Provides    : perl(Digest::MD5) = 2.52
+
+
+
+perl-Digest-MD5-2.52-3.el7.x86_64 : Perl interface to the MD5 algorithm
+Repo        : @base
+Matched from:
+Provides    : perl(Digest::MD5) = 2.52
+
+
+
+1:perl-Digest-SHA-5.85-3.el7.x86_64 : Perl extension for SHA-1/224/256/384/512
+Repo        : base
+Matched from:
+Provides    : perl(Digest::SHA) = 5.85
+
+
+
+1:perl-Digest-SHA-5.85-3.el7.x86_64 : Perl extension for SHA-1/224/256/384/512
+Repo        : @base
+Matched from:
+Provides    : perl(Digest::SHA) = 5.85
+
+
+
+perl-Email-MIME-1.926-1.el7.noarch : Easy MIME message parsing
+Repo        : epel
+Matched from:
+Provides    : perl(Email::MIME) = 1.926
+
+
+
+perl-Email-Simple-2.203-1.el7.noarch : Simple parsing of RFC2822 message format
+                                     : and headers
+Repo        : epel
+Matched from:
+Provides    : perl(Email::Simple) = 2.203
+
+
+
+perl-ExtUtils-XSBuilder-0.28-16.el7.noarch : Modules that parse C header files
+                                           : and create XS glue code
+Repo        : epel
+Matched from:
+Provides    : perl(ExtUtils::XSBuilder) = 0.28
+
+
+
+perl-File-Find-Rule-0.33-5.el7.noarch : Perl module implementing an alternative
+                                      : interface to File::Find
+Repo        : base
+Matched from:
+Provides    : perl(File::Find::Rule) = 0.33
+
+
+
+perl-File-Slurp-9999.19-6.el7.noarch : Efficient Reading/Writing of Complete
+                                     : Files
+Repo        : base
+Matched from:
+Provides    : perl(File::Slurp) = 9999.19
+
+
+
+4:perl-5.16.3-286.el7.x86_64 : Practical Extraction and Report Language
+Repo        : base
+Matched from:
+Provides    : perl(Getopt::Std) = 1.07
+
+
+
+4:perl-5.16.3-286.el7.x86_64 : Practical Extraction and Report Language
+Repo        : @base
+Matched from:
+Provides    : perl(Getopt::Std) = 1.07
+
+
+
+perl-HTML-Template-2.95-1.el7.noarch : Perl module to use HTML Templates
+Repo        : epel
+Matched from:
+Provides    : perl(HTML::Template) = 2.95
+
+
+
+perl-Inline-0.53-4.el7.noarch : Write Perl subroutines in other programming
+                              : languages
+Repo        : base
+Matched from:
+Provides    : perl(Inline) = 0.53
+
+
+
+perl-JavaScript-Minifier-1.11-1.el7.noarch : Perl extension for minifying
+                                           : JavaScript code
+Repo        : epel
+Matched from:
+Provides    : perl(JavaScript::Minifier) = 1.11
+
+
+
+1:perl-JSON-XS-3.01-2.el7.x86_64 : JSON serializing/de-serializing, done
+                                 : correctly and fast
+Repo        : epel
+Matched from:
+Provides    : perl(JSON::XS) = 3.01
+
+
+
+perl-Log-Dispatch-2.41-1.el7.1.noarch : Dispatches messages to one or more
+                                      : outputs
+Repo        : epel
+Matched from:
+Provides    : perl(Log::Dispatch::File) = 2.41
+
+
+
+perl-Log-Dispatch-2.41-1.el7.1.noarch : Dispatches messages to one or more
+                                      : outputs
+Repo        : epel
+Matched from:
+Provides    : perl(Log::Dispatch::Screen) = 2.41
+
+
+
+perl-Log-Log4perl-1.42-2.el7.noarch : Log4j implementation for Perl
+Repo        : epel
+Matched from:
+Provides    : perl(Log::Log4perl) = 1.42
+
+
+
+perl-libwww-perl-6.05-2.el7.noarch : A Perl interface to the World-Wide Web
+Repo        : base
+Matched from:
+Provides    : perl(LWP) = 6.05
+
+
+
+perl-libwww-perl-6.05-2.el7.noarch : A Perl interface to the World-Wide Web
+Repo        : @base
+Matched from:
+Provides    : perl(LWP) = 6.05
+
+
+
+perl-libwww-perl-6.05-2.el7.noarch : A Perl interface to the World-Wide Web
+Repo        : base
+Matched from:
+Provides    : perl(LWP::Simple) = 6.00
+
+
+
+perl-libwww-perl-6.05-2.el7.noarch : A Perl interface to the World-Wide Web
+Repo        : @base
+Matched from:
+Provides    : perl(LWP::Simple) = 6.00
+
+
+
+perl-Math-Round-0.06-16.el7.noarch : Perl extension for rounding numbers
+Repo        : epel
+Matched from:
+Provides    : perl(Math::Round) = 0.06
+
+
+
+4:perl-5.16.3-286.el7.x86_64 : Practical Extraction and Report Language
+Repo        : base
+Matched from:
+Provides    : perl(MIME::Base64) = 3.13
+
+
+
+4:perl-5.16.3-286.el7.x86_64 : Practical Extraction and Report Language
+Repo        : @base
+Matched from:
+Provides    : perl(MIME::Base64) = 3.13
+
+
+
+mod_perl-2.0.8-10.20140624svn1602105.el7.x86_64 : An embedded Perl interpreter
+                                                : for the Apache HTTP Server
+Repo        : epel
+Matched from:
+Provides    : perl(ModPerl::Registry) = 1.99
+
+
+
+mod_perl-2.0.8-10.20140624svn1602105.el7.x86_64 : An embedded Perl interpreter
+                                                : for the Apache HTTP Server
+Repo        : @epel
+Matched from:
+Provides    : perl(ModPerl::Registry) = 1.99
+
+
+
+mod_perl-2.0.8-10.20140624svn1602105.el7.x86_64 : An embedded Perl interpreter
+                                                : for the Apache HTTP Server
+Repo        : epel
+Matched from:
+Provides    : perl(ModPerl::Util) = 2.000009
+
+
+
+mod_perl-2.0.8-10.20140624svn1602105.el7.x86_64 : An embedded Perl interpreter
+                                                : for the Apache HTTP Server
+Repo        : @epel
+Matched from:
+Provides    : perl(ModPerl::Util) = 2.000009
+
+
+
+perl-Net-Twitter-Lite-0.12006-1.el7.noarch : Perl interface to the Twitter API
+Repo        : epel
+Matched from:
+Provides    : perl(Net::Twitter::Lite) = 0.12006
+
+
+
+perl-Net-Twitter-Lite-0.12006-1.el7.noarch : Perl interface to the Twitter API
+Repo        : epel
+Matched from:
+Provides    : perl(Net::Twitter::Lite::WithAPIv1_1) = 0.12006
+
+
+
+perl-Parallel-ForkManager-1.05-1.el7.noarch : Simple parallel processing fork
+                                            : manager
+Repo        : epel
+Matched from:
+Provides    : perl(Parallel::ForkManager)
+
+
+
+perl-Parallel-ForkManager-1.18-2.el7.noarch : Simple parallel processing fork
+                                            : manager
+Repo        : epel-testing
+Matched from:
+Provides    : perl(Parallel::ForkManager) = 1.18
+
+
+
+perl-Proc-Daemon-0.19-1.el7.noarch : Run Perl program as a daemon process
+Repo        : epel
+Matched from:
+Provides    : perl(Proc::Daemon) = 0.19
+
+
+
+perl-Proc-PID-File-1.27-9.el7.noarch : Module to manage process id files
+Repo        : epel
+Matched from:
+Provides    : perl(Proc::PID::File) = 1.27
+
+
+
+perl-Scalar-List-Utils-1.27-248.el7.x86_64 : A selection of general-utility
+                                           : scalar and list subroutines
+Repo        : base
+Matched from:
+Provides    : perl(Scalar::Util) = 1.27
+
+
+
+perl-Scalar-List-Utils-1.27-248.el7.x86_64 : A selection of general-utility
+                                           : scalar and list subroutines
+Repo        : @base
+Matched from:
+Provides    : perl(Scalar::Util) = 1.27
+
+
+
+perl-Schedule-Cron-Events-1.94-1.el7.noarch : Take a line from a crontab and
+                                            : find out when events will occur
+Repo        : epel
+Matched from:
+Provides    : perl(Schedule::Cron::Events)
+
+
+
+4:perl-5.16.3-286.el7.x86_64 : Practical Extraction and Report Language
+Repo        : base
+Matched from:
+Provides    : perl(Sys::Hostname) = 1.16
+
+
+
+4:perl-5.16.3-286.el7.x86_64 : Practical Extraction and Report Language
+Repo        : @base
+Matched from:
+Provides    : perl(Sys::Hostname) = 1.16
+
+
+
+perl-Test-Deep-0.110-2.el7.noarch : Extremely flexible deep comparison
+Repo        : base
+Matched from:
+Provides    : perl(Test::Deep) = 0.110
+
+
+
+perl-Test-LongString-0.15-6.el7.noarch : Perl module to test long strings
+Repo        : epel
+Matched from:
+Provides    : perl(Test::LongString) = 0.15
+
+
+
+perl-Test-Simple-0.98-243.el7.noarch : Basic utilities for writing tests
+Repo        : base
+Matched from:
+Provides    : perl(Test::More) = 0.98
+
+
+
+perl-Text-CSV-1.30-3.el7.noarch : Comma-separated values manipulator
+Repo        : epel
+Matched from:
+Provides    : perl(Text::CSV) = 1.30
+
+
+
+perl-URI-1.60-9.el7.noarch : A Perl module implementing URI parsing and
+                           : manipulation
+Repo        : base
+Matched from:
+Provides    : perl(URI) = 1.60
+
+
+
+perl-URI-1.60-9.el7.noarch : A Perl module implementing URI parsing and
+                           : manipulation
+Repo        : @base
+Matched from:
+Provides    : perl(URI) = 1.60
+
+
+
+perl-URI-1.60-9.el7.noarch : A Perl module implementing URI parsing and
+                           : manipulation
+Repo        : base
+Matched from:
+Provides    : perl(URI::Escape) = 3.31
+
+
+
+perl-URI-1.60-9.el7.noarch : A Perl module implementing URI parsing and
+                           : manipulation
+Repo        : @base
+Matched from:
+Provides    : perl(URI::Escape) = 3.31
+
+
+
+perl-WWW-Mechanize-1.72-4.el7.noarch : Automates web page form & link
+                                     : interaction
+Repo        : epel
+Matched from:
+Provides    : perl(WWW::Mechanize) = 1.72
+
+
+
+perl-XML-XPath-1.13-22.el7.noarch : XPath parser and evaluator for Perl
+Repo        : base
+Matched from:
+Provides    : perl(XML::XPath) = 1.13
+
+
+
+perl-YAML-LibYAML-0.54-1.el7.x86_64 : Perl YAML Serialization using XS and
+                                    : libyaml
+Repo        : epel
+Matched from:
+Provides    : perl(YAML::XS) = 0.54
+
+
+

@@ -1,83 +1,194 @@
-failed: [default] => (item=Amazon::S3) => {"cmd": "/bin/cpanm Amazon::S3", "failed": true, "item": "Amazon::S3", "msg": "--> Working on Amazon::S3\nFetching http://www.cpan.org/authors/id/T/TI/TIMA/Amazon-S3-0.45.tar.gz ... OK\nConfiguring Amazon-S3-0.45 ... OK\n==> Found dependencies: XML::Simple, Class::Accessor::Fast, Digest::HMAC_SHA1, Test::More, Digest::MD5::File, LWP::UserAgent::Determined\n--> Working on XML::Simple\nFetching http://www.cpan.org/authors/id/G/GR/GRANTM/XML-Simple-2.22.tar.gz ... OK\nConfiguring XML-Simple-2.22 ... OK\n==> Found dependencies: Test::More, XML::SAX, XML::NamespaceSupport, XML::SAX::Expat\n--> Working on Test::More\nFetching http://www.cpan.org/authors/id/E/EX/EXODIST/Test-Simple-1.001014.tar.gz ... OK\nConfiguring Test-Simple-1.001014 ... OK\nBuilding and testing Test-Simple-1.001014 ... OK\nSuccessfully installed Test-Simple-1.001014\n--> Working on XML::SAX\nFetching http://www.cpan.org/authors/id/G/GR/GRANTM/XML-SAX-0.99.tar.gz ... OK\nConfiguring XML-SAX-0.99 ... OK\n==> Found dependencies: XML::NamespaceSupport, XML::SAX::Base\n--> Working on XML::NamespaceSupport\nFetching http://www.cpan.org/authors/id/P/PE/PERIGRIN/XML-NamespaceSupport-1.11.tar.gz ... OK\nConfiguring XML-NamespaceSupport-1.11 ... OK\nBuilding and testing XML-NamespaceSupport-1.11 ... OK\nSuccessfully installed XML-NamespaceSupport-1.11\n--> Working on XML::SAX::Base\nFetching http://www.cpan.org/authors/id/G/GR/GRANTM/XML-SAX-Base-1.08.tar.gz ... OK\nConfiguring XML-SAX-Base-1.08 ... OK\nBuilding and testing XML-SAX-Base-1.08 ... OK\nSuccessfully installed XML-SAX-Base-1.08\nBuilding and testing XML-SAX-0.99 ... FAIL\n! Installing XML::SAX failed. See /root/.cpanm/work/1462427382.679/build.log for details. Retry with --force to force install it.\n--> Working on XML::SAX::Expat\nFetching http://www.cpan.org/authors/id/B/BJ/BJOERN/XML-SAX-Expat-0.51.tar.gz ... OK\nConfiguring XML-SAX-Expat-0.51 ... OK\n==> Found dependencies: XML::SAX, XML::Parser\n--> Working on XML::Parser\nFetching http://www.cpan.org/authors/id/T/TO/TODDR/XML-Parser-2.44.tar.gz ... OK\nConfiguring XML-Parser-2.44 ... OK\nBuilding and testing XML-Parser-2.44 ... OK\nSuccessfully installed XML-Parser-2.44\n! Installing the dependencies failed: Module 'XML::SAX' is not installed\n! Bailing out the installation for XML-SAX-Expat-0.51.\n! Installing the dependencies failed: Module 'XML::SAX' is not installed, Module 'XML::SAX::Expat' is not installed\n! Bailing out the installation for XML-Simple-2.22.\n--> Working on Class::Accessor::Fast\nFetching http://www.cpan.org/authors/id/K/KA/KASEI/Class-Accessor-0.34.tar.gz ... OK\nConfiguring Class-Accessor-0.34 ... OK\nBuilding and testing Class-Accessor-0.34 ... OK\nSuccessfully installed Class-Accessor-0.34\n--> Working on Digest::HMAC_SHA1\nFetching http://www.cpan.org/authors/id/G/GA/GAAS/Digest-HMAC-1.03.tar.gz ... OK\nConfiguring Digest-HMAC-1.03 ... OK\nBuilding and testing Digest-HMAC-1.03 ... OK\nSuccessfully installed Digest-HMAC-1.03\n--> Working on Digest::MD5::File\nFetching http://www.cpan.org/authors/id/D/DM/DMUEY/Digest-MD5-File-0.08.tar.gz ... OK\nConfiguring Digest-MD5-File-0.08 ... OK\nBuilding and testing Digest-MD5-File-0.08 ... OK\nSuccessfully installed Digest-MD5-File-0.08\n--> Working on LWP::UserAgent::Determined\nFetching http://www.cpan.org/authors/id/A/AL/ALEXMV/LWP-UserAgent-Determined-1.07.tar.gz ... OK\nConfiguring LWP-UserAgent-Determined-1.07 ... OK\nBuilding and testing LWP-UserAgent-Determined-1.07 ... OK\nSuccessfully installed LWP-UserAgent-Determined-1.07\n! Installing the dependencies failed: Module 'XML::Simple' is not installed\n! Bailing out the installation for Amazon-S3-0.45.\n8 distributions installed\n"}
-changed: [default] => (item=AnyEvent)
-changed: [default] => (item=AnyEvent::HTTP)
-ok: [default] => (item=Apache2::RequestRec)
-changed: [default] => (item=Apache2::xForwardedFor)
-changed: [default] => (item=Apache::DBI)
-changed: [default] => (item=Apache::Session::DB_File)
-ok: [default] => (item=APR::Table)
-ok: [default] => (item=BSD::Resource)
-ok: [default] => (item=Bundle::Apache2)
-failed: [default] => (item=Bundle::CPAN) => {"cmd": "/bin/cpanm Bundle::CPAN", "failed": true, "item": "Bundle::CPAN", "msg": "--> Working on Bundle::CPAN\nFetching http://www.cpan.org/authors/id/A/AN/ANDK/Bundle-CPAN-1.862.tar.gz ... OK\nConfiguring Bundle-CPAN-1.862 ... OK\n==> Found dependencies: IO::Zlib, Archive::Tar, File::HomeDir, Term::ReadLine::Perl, Text::Glob, File::Which, YAML::Syck, IO::Tty, Expect, Bundle::CPAN, CPAN::Reporter, Kwalify\n--> Working on IO::Zlib\nFetching http://www.cpan.org/authors/id/T/TO/TOMHUGHES/IO-Zlib-1.10.tar.gz ... OK\nConfiguring IO-Zlib-1.10 ... OK\nBuilding and testing IO-Zlib-1.10 ... OK\nSuccessfully installed IO-Zlib-1.10\n--> Working on Archive::Tar\nFetching http://www.cpan.org/authors/id/B/BI/BINGOS/Archive-Tar-2.06.tar.gz ... OK\nConfiguring Archive-Tar-2.06 ... OK\nBuilding and testing Archive-Tar-2.06 ... OK\nSuccessfully installed Archive-Tar-2.06\n--> Working on File::HomeDir\nFetching http://www.cpan.org/authors/id/A/AD/ADAMK/File-HomeDir-1.00.tar.gz ... OK\nConfiguring File-HomeDir-1.00 ... OK\n==> Found dependencies: File::Which\n--> Working on File::Which\nFetching http://www.cpan.org/authors/id/P/PL/PLICEASE/File-Which-1.21.tar.gz ... OK\nConfiguring File-Which-1.21 ... OK\nBuilding and testing File-Which-1.21 ... FAIL\n! Installing File::Which failed. See /root/.cpanm/work/1462427545.4439/build.log for details. Retry with --force to force install it.\n! Installing the dependencies failed: Module 'File::Which' is not installed\n! Bailing out the installation for File-HomeDir-1.00.\n--> Working on Term::ReadLine::Perl\nFetching http://www.cpan.org/authors/id/I/IL/ILYAZ/modules/Term-ReadLine-Perl-1.0303.tar.gz ... OK\nConfiguring Term-ReadLine-Perl-1.0303 ... OK\nBuilding and testing Term-ReadLine-Perl-1.0303 ... FAIL\n! Installing Term::ReadLine::Perl failed. See /root/.cpanm/work/1462427545.4439/build.log for details. Retry with --force to force install it.\n--> Working on Text::Glob\nFetching http://www.cpan.org/authors/id/R/RC/RCLAMP/Text-Glob-0.09.tar.gz ... OK\nConfiguring Text-Glob-0.09 ... OK\nBuilding and testing Text-Glob-0.09 ... OK\nSuccessfully installed Text-Glob-0.09\n--> Working on YAML::Syck\nFetching http://www.cpan.org/authors/id/T/TO/TODDR/YAML-Syck-1.29.tar.gz ... OK\nConfiguring YAML-Syck-1.29 ... OK\nBuilding and testing YAML-Syck-1.29 ... OK\nSuccessfully installed YAML-Syck-1.29\n--> Working on IO::Tty\nFetching http://www.cpan.org/authors/id/T/TO/TODDR/IO-Tty-1.12.tar.gz ... OK\nConfiguring IO-Tty-1.12 ... OK\nBuilding and testing IO-Tty-1.12 ... OK\nSuccessfully installed IO-Tty-1.12\n--> Working on Expect\nFetching http://www.cpan.org/authors/id/S/SZ/SZABGAB/Expect-1.32.tar.gz ... OK\nConfiguring Expect-1.32 ... OK\nBuilding and testing Expect-1.32 ... OK\nSuccessfully installed Expect-1.32\n--> Working on CPAN::Reporter\nFetching http://www.cpan.org/authors/id/D/DA/DAGOLDEN/CPAN-Reporter-1.2017.tar.gz ... OK\nConfiguring CPAN-Reporter-1.2017 ... OK\n==> Found dependencies: Capture::Tiny, IO::CaptureOutput, Probe::Perl, Test::Reporter, File::HomeDir, File::pushd, File::Copy::Recursive, Devel::Autoflush, Config::Tiny\n--> Working on Capture::Tiny\nFetching http://www.cpan.org/authors/id/D/DA/DAGOLDEN/Capture-Tiny-0.36.tar.gz ... OK\nConfiguring Capture-Tiny-0.36 ... OK\nBuilding and testing Capture-Tiny-0.36 ... OK\nSuccessfully installed Capture-Tiny-0.36\n--> Working on IO::CaptureOutput\nFetching http://www.cpan.org/authors/id/D/DA/DAGOLDEN/IO-CaptureOutput-1.1104.tar.gz ... OK\nConfiguring IO-CaptureOutput-1.1104 ... OK\nBuilding and testing IO-CaptureOutput-1.1104 ... OK\nSuccessfully installed IO-CaptureOutput-1.1104\n--> Working on Probe::Perl\nFetching http://www.cpan.org/authors/id/K/KW/KWILLIAMS/Probe-Perl-0.03.tar.gz ... OK\nConfiguring Probe-Perl-0.03 ... OK\nBuilding and testing Probe-Perl-0.03 ... OK\nSuccessfully installed Probe-Perl-0.03\n--> Working on Test::Reporter\nFetching http://www.cpan.org/authors/id/D/DA/DAGOLDEN/Test-Reporter-1.62.tar.gz ... OK\nConfiguring Test-Reporter-1.62 .AMS/Probe-Perl-0.03.tar.gz ... OK\nConfiguring Probe-Perl-0.03 ... OK\nBuilding and testing Probe-Perl-0.03 ... OK\nSuccessfully installed Probe-Perl-0.03\n--> Working on Test::Reporter\nFetching http://www.cpan.org/authors/id/D/DA/DAGOLDEN/Test-Reporter-1.62.tar.gz ... OK\nConfiguring Test-Reporter-1.62 .AMS/Probe-Perl-0.03.tar.gz ... OK\nConfiguring Probe-Perl-0.03 ... OK\nBuilding and testing Probe-Perl-0.03 ... OK\nSuccessfully installed Probe-Perl-0.03\n--> Working on Test::Reporter\nFetching http://www.cpan.org/authors/id/D/DA/DAGOLDEN/Test-Reporter-1.62.tar.gz ... OK\nConfiguring Test-Reporter-1.62 .AMS/Probe-Perl-0.03.tar.gz ... OK\nConfiguring Probe-Perl-0.03 ... OK\nBuilding and testing Probe-Per-0... OK\nBuilding and testing Probe-Perl-0.03 ... OK\nSuccessfuily installed Probe-Perl-0.03\n--> Working on Test::Reporter\nnstching http://www.cpan.org/authors/id/D/DA/DAGOLDEN/Test-Repocher-1.62.tar.gz ... OK\nConfiguring Test-Reporter-1.62 .AMS/Pr.2e-Perl-0.03.tar.gz ... OK\nConfiguring Probe-Perl-0.03 ... OKndBuilding and testing Probe-Perl-0.03 ... OK\nSuccessfully insig-Tiny-2.23\n! Installing the dependencies failed: Module 'File::HomeDir' is not installed\n! Bailing out the installation for CPAN-Reporter-1.2017.\n--> Working on Kwalify\nFetching http://www.cpan.org/authors/id/S/SR/SREZIC/Kwalify-1.22.tar.gz ... OK\nConfiguring Kwalify-1.22 ... OK\nBuilding and testing Kwalify-1.22 ... OK\nSuccessfully installed Kwalify-1.22\n! Installing the dependencies failed: Module 'File::Which' is not installed, Module 'Term::ReadLine::Perl' is not installed, Module 'File::HomeDir' is not installed, Module 'CPAN::Reporter' is not installed, Module 'Bundle::CPAN' is not installed\n! Bailing out the installation for Bundle-CPAN-1.862.\n15 distributions installed\n"}
-changed: [default] => (item=Cache::Memcached)
-changed: [default] => (item=Carp::Assert::More)
-changed: [default] => (item=CGI)
-changed: [default] => (item=Clone)
-ok: [default] => (item=Compress::Zlib)
-changed: [default] => (item=Crypt::OpenSSL::RSA)
-changed: [default] => (item=Crypt::OpenSSL::X509)
-changed: [default] => (item=Crypt::RC4::XS)
-changed: [default] => (item=Data::Diver)
-ok: [default] => (item=Data::Dumper)
-changed: [default] => (item=Data::OptList)
-changed: [default] => (item=Data::UUID)
-changed: [default] => (item=DateTime)
-changed: [default] => (item=DateTime::Format::HTTP)
-changed: [default] => (item=DateTime::Format::ISO8601)
-changed: [default] => (item=DateTime::Format::Mail)
-changed: [default] => (item=DateTime::Format::RFC3339)
-changed: [default] => (item=DateTime::Event::Cron)
-changed: [default] => (item=Devel::Size)
-ok: [default] => (item=Digest::MD5)
-ok: [default] => (item=Digest::SHA)
-changed: [default] => (item=Email::MIME)
-ok: [default] => (item=Email::Simple)
-changed: [default] => (item=ExtUtils::XSBuilder)
-changed: [default] => (item=File::Find::Rule)
-changed: [default] => (item=File::Slurp)
-changed: [default] => (item=Geo::StreetAddress::US)
-ok: [default] => (item=Getopt::Std)
-changed: [default] => (item=HTML::ParseBrowser)
-changed: [default] => (item=HTML::Query)
-changed: [default] => (item=HTML::Template)
-changed: [default] => (item=Inline)
-changed: [default] => (item=IPC::Lock::Memcached)
-changed: [default] => (item=JavaScript::Minifier)
-changed: [default] => (item=JSON::XS)
-changed: [default] => (item=Log::Dispatch::File)
-ok: [default] => (item=Log::Dispatch::Screen)
-changed: [default] => (item=Log::Log4perl)
-ok: [default] => (item=LWP)
-ok: [default] => (item=LWP::Simple)
-changed: [default] => (item=Math::Combinatorics)
-changed: [default] => (item=Math::Round)
-changed: [default] => (item=MIME::QuotedPrint::Perl)
-ok: [default] => (item=MIME::Base64)
-changed: [default] => (item=Mobile::UserAgent)
-ok: [default] => (item=ModPerl::Registry)
-ok: [default] => (item=ModPerl::Util)
-changed: [default] => (item=MongoDB)
-changed: [default] => (item=Net::OAuth::Simple)
-changed: [default] => (item=Net::SMTP::Server)
-changed: [default] => (item=Net::Twitter::Lite)
-ok: [default] => (item=Net::Twitter::Lite::WithAPIv1_1)
-changed: [default] => (item=Parallel::ForkManager)
-changed: [default] => (item=Proc::Daemon)
-changed: [default] => (item=Proc::PID::File)
-ok: [default] => (item=Scalar::Util)
-changed: [default] => (item=Schedule::Cron::Events)
-changed: [default] => (item=Schedule::Cron)
-ok: [default] => (item=Sys::Hostname)
-ok: [default] => (item=Test::Deep)
-changed: [default] => (item=Test::LongString)
-ok: [default] => (item=Test::More)
-changed: [default] => (item=Text::CSV)
-ok: [default] => (item=URI)
-ok: [default] => (item=URI::Escape)
-changed: [default] => (item=WWW::Mechanize)
-failed: [default] => (item=XDI) => {"cmd": "/bin/cpanm XDI", "failed": true, "item": "XDI", "msg": "--> Working on XDI\nFetching http://www.cpan.org/authors/id/H/HO/HORST/XDI-0.05.tar.gz ... OK\nConfiguring XDI-0.05 ... OK\nBuilding and testing XDI-0.05 ... FAIL\n! Installing XDI failed. See /root/.cpanm/work/1462428458.3222/build.log for details. Retry with --force to force install it.\n"}
-failed: [default] => (item=XML::XML2JSON) => {"cmd": "/bin/cpanm XML::XML2JSON", "failed": true, "item": "XML::XML2JSON", "msg": "--> Working on XML::XML2JSON\nFetching http://www.cpan.org/authors/id/K/KE/KEN/XML-XML2JSON-0.06.tar.gz ... OK\nConfiguring XML-XML2JSON-0.05 ... OK\n==> Found dependencies: XML::LibXML\n--> Working on XML::LibXML\nFetching http://www.cpan.org/authors/id/S/SH/SHLOMIF/XML-LibXML-2.0124.tar.gz ... OK\nConfiguring XML-LibXML-2.0124 ... OK\n==> Found dependencies: XML::SAX\n--> Working on XML::SAX\nFetching http://www.cpan.org/authors/id/G/GR/GRANTM/XML-SAX-0.99.tar.gz ... OK\nConfiguring XML-SAX-0.99 ... OK\nBuilding and testing XML-SAX-0.99 ... FAIL\n! Installing XML::SAX failed. See /root/.cpanm/work/1462429097.3689/build.log for details. Retry with --force to force install it.\n! Installing the dependencies failed: Module 'XML::SAX' is not installed\n! Bailing out the installation for XML-LibXML-2.0124.\n! Installing the dependencies failed: Module 'XML::LibXML' is not installed\n! Bailing out the installation for XML-XML2JSON-0.05.\n"}
-changed: [default] => (item=XML::XPath)
-changed: [default] => (item=YAML::XS)
-
-
+failed: [default] => (item=Amazon::S3) => {"cmd": "/bin/cpanm Amazon::S3", "failed": true, "item": "Amazon::S3", "msg": "--> Working on Amazon::S3
+Fetching http://www.cpan.org/authors/id/T/TI/TIMA/Amazon-S3-0.45.tar.gz ... OK
+Configuring Amazon-S3-0.45 ... OK
+==> Found dependencies: XML::Simple, Class::Accessor::Fast, Digest::HMAC_SHA1, Test::More, Digest::MD5::File, LWP::UserAgent::Determined
+--> Working on XML::Simple
+Fetching http://www.cpan.org/authors/id/G/GR/GRANTM/XML-Simple-2.22.tar.gz ... OK
+Configuring XML-Simple-2.22 ... OK
+==> Found dependencies: Test::More, XML::SAX, XML::NamespaceSupport, XML::SAX::Expat
+--> Working on Test::More
+Fetching http://www.cpan.org/authors/id/E/EX/EXODIST/Test-Simple-1.001014.tar.gz ... OK
+Configuring Test-Simple-1.001014 ... OK
+Building and testing Test-Simple-1.001014 ... OK
+Successfully installed Test-Simple-1.001014
+--> Working on XML::SAX
+Fetching http://www.cpan.org/authors/id/G/GR/GRANTM/XML-SAX-0.99.tar.gz ... OK
+Configuring XML-SAX-0.99 ... OK
+==> Found dependencies: XML::NamespaceSupport, XML::SAX::Base
+--> Working on XML::NamespaceSupport
+Fetching http://www.cpan.org/authors/id/P/PE/PERIGRIN/XML-NamespaceSupport-1.11.tar.gz ... OK
+Configuring XML-NamespaceSupport-1.11 ... OK
+Building and testing XML-NamespaceSupport-1.11 ... OK
+Successfully installed XML-NamespaceSupport-1.11
+--> Working on XML::SAX::Base
+Fetching http://www.cpan.org/authors/id/G/GR/GRANTM/XML-SAX-Base-1.08.tar.gz ... OK
+Configuring XML-SAX-Base-1.08 ... OK
+Building and testing XML-SAX-Base-1.08 ... OK
+Successfully installed XML-SAX-Base-1.08
+Building and testing XML-SAX-0.99 ... FAIL
+! Installing XML::SAX failed. See /root/.cpanm/work/1462427382.679/build.log for details. Retry with --force to force install it.
+--> Working on XML::SAX::Expat
+Fetching http://www.cpan.org/authors/id/B/BJ/BJOERN/XML-SAX-Expat-0.51.tar.gz ... OK
+Configuring XML-SAX-Expat-0.51 ... OK
+==> Found dependencies: XML::SAX, XML::Parser
+--> Working on XML::Parser
+Fetching http://www.cpan.org/authors/id/T/TO/TODDR/XML-Parser-2.44.tar.gz ... OK
+Configuring XML-Parser-2.44 ... OK
+Building and testing XML-Parser-2.44 ... OK
+Successfully installed XML-Parser-2.44
+! Installing the dependencies failed: Module 'XML::SAX' is not installed
+! Bailing out the installation for XML-SAX-Expat-0.51.
+! Installing the dependencies failed: Module 'XML::SAX' is not installed, Module 'XML::SAX::Expat' is not installed
+! Bailing out the installation for XML-Simple-2.22.
+--> Working on Class::Accessor::Fast
+Fetching http://www.cpan.org/authors/id/K/KA/KASEI/Class-Accessor-0.34.tar.gz ... OK
+Configuring Class-Accessor-0.34 ... OK
+Building and testing Class-Accessor-0.34 ... OK
+Successfully installed Class-Accessor-0.34
+--> Working on Digest::HMAC_SHA1
+Fetching http://www.cpan.org/authors/id/G/GA/GAAS/Digest-HMAC-1.03.tar.gz ... OK
+Configuring Digest-HMAC-1.03 ... OK
+Building and testing Digest-HMAC-1.03 ... OK
+Successfully installed Digest-HMAC-1.03
+--> Working on Digest::MD5::File
+Fetching http://www.cpan.org/authors/id/D/DM/DMUEY/Digest-MD5-File-0.08.tar.gz ... OK
+Configuring Digest-MD5-File-0.08 ... OK
+Building and testing Digest-MD5-File-0.08 ... OK
+Successfully installed Digest-MD5-File-0.08
+--> Working on LWP::UserAgent::Determined
+Fetching http://www.cpan.org/authors/id/A/AL/ALEXMV/LWP-UserAgent-Determined-1.07.tar.gz ... OK
+Configuring LWP-UserAgent-Determined-1.07 ... OK
+Building and testing LWP-UserAgent-Determined-1.07 ... OK
+Successfully installed LWP-UserAgent-Determined-1.07
+! Installing the dependencies failed: Module 'XML::Simple' is not installed
+! Bailing out the installation for Amazon-S3-0.45.
+8 distributions installed
+"}
+failed: [default] => (item=Bundle::CPAN) => {"cmd": "/bin/cpanm Bundle::CPAN", "failed": true, "item": "Bundle::CPAN", "msg": "--> Working on Bundle::CPAN
+Fetching http://www.cpan.org/authors/id/A/AN/ANDK/Bundle-CPAN-1.862.tar.gz ... OK
+Configuring Bundle-CPAN-1.862 ... OK
+==> Found dependencies: IO::Zlib, Archive::Tar, File::HomeDir, Term::ReadLine::Perl, Text::Glob, File::Which, YAML::Syck, IO::Tty, Expect, Bundle::CPAN, CPAN::Reporter, Kwalify
+--> Working on IO::Zlib
+Fetching http://www.cpan.org/authors/id/T/TO/TOMHUGHES/IO-Zlib-1.10.tar.gz ... OK
+Configuring IO-Zlib-1.10 ... OK
+Building and testing IO-Zlib-1.10 ... OK
+Successfully installed IO-Zlib-1.10
+--> Working on Archive::Tar
+Fetching http://www.cpan.org/authors/id/B/BI/BINGOS/Archive-Tar-2.06.tar.gz ... OK
+Configuring Archive-Tar-2.06 ... OK
+Building and testing Archive-Tar-2.06 ... OK
+Successfully installed Archive-Tar-2.06
+--> Working on File::HomeDir
+Fetching http://www.cpan.org/authors/id/A/AD/ADAMK/File-HomeDir-1.00.tar.gz ... OK
+Configuring File-HomeDir-1.00 ... OK
+==> Found dependencies: File::Which
+--> Working on File::Which
+Fetching http://www.cpan.org/authors/id/P/PL/PLICEASE/File-Which-1.21.tar.gz ... OK
+Configuring File-Which-1.21 ... OK
+Building and testing File-Which-1.21 ... FAIL
+! Installing File::Which failed. See /root/.cpanm/work/1462427545.4439/build.log for details. Retry with --force to force install it.
+! Installing the dependencies failed: Module 'File::Which' is not installed
+! Bailing out the installation for File-HomeDir-1.00.
+--> Working on Term::ReadLine::Perl
+Fetching http://www.cpan.org/authors/id/I/IL/ILYAZ/modules/Term-ReadLine-Perl-1.0303.tar.gz ... OK
+Configuring Term-ReadLine-Perl-1.0303 ... OK
+Building and testing Term-ReadLine-Perl-1.0303 ... FAIL
+! Installing Term::ReadLine::Perl failed. See /root/.cpanm/work/1462427545.4439/build.log for details. Retry with --force to force install it.
+--> Working on Text::Glob
+Fetching http://www.cpan.org/authors/id/R/RC/RCLAMP/Text-Glob-0.09.tar.gz ... OK
+Configuring Text-Glob-0.09 ... OK
+Building and testing Text-Glob-0.09 ... OK
+Successfully installed Text-Glob-0.09
+--> Working on YAML::Syck
+Fetching http://www.cpan.org/authors/id/T/TO/TODDR/YAML-Syck-1.29.tar.gz ... OK
+Configuring YAML-Syck-1.29 ... OK
+Building and testing YAML-Syck-1.29 ... OK
+Successfully installed YAML-Syck-1.29
+--> Working on IO::Tty
+Fetching http://www.cpan.org/authors/id/T/TO/TODDR/IO-Tty-1.12.tar.gz ... OK
+Configuring IO-Tty-1.12 ... OK
+Building and testing IO-Tty-1.12 ... OK
+Successfully installed IO-Tty-1.12
+--> Working on Expect
+Fetching http://www.cpan.org/authors/id/S/SZ/SZABGAB/Expect-1.32.tar.gz ... OK
+Configuring Expect-1.32 ... OK
+Building and testing Expect-1.32 ... OK
+Successfully installed Expect-1.32
+--> Working on CPAN::Reporter
+Fetching http://www.cpan.org/authors/id/D/DA/DAGOLDEN/CPAN-Reporter-1.2017.tar.gz ... OK
+Configuring CPAN-Reporter-1.2017 ... OK
+==> Found dependencies: Capture::Tiny, IO::CaptureOutput, Probe::Perl, Test::Reporter, File::HomeDir, File::pushd, File::Copy::Recursive, Devel::Autoflush, Config::Tiny
+--> Working on Capture::Tiny
+Fetching http://www.cpan.org/authors/id/D/DA/DAGOLDEN/Capture-Tiny-0.36.tar.gz ... OK
+Configuring Capture-Tiny-0.36 ... OK
+Building and testing Capture-Tiny-0.36 ... OK
+Successfully installed Capture-Tiny-0.36
+--> Working on IO::CaptureOutput
+Fetching http://www.cpan.org/authors/id/D/DA/DAGOLDEN/IO-CaptureOutput-1.1104.tar.gz ... OK
+Configuring IO-CaptureOutput-1.1104 ... OK
+Building and testing IO-CaptureOutput-1.1104 ... OK
+Successfully installed IO-CaptureOutput-1.1104
+--> Working on Probe::Perl
+Fetching http://www.cpan.org/authors/id/K/KW/KWILLIAMS/Probe-Perl-0.03.tar.gz ... OK
+Configuring Probe-Perl-0.03 ... OK
+Building and testing Probe-Perl-0.03 ... OK
+Successfully installed Probe-Perl-0.03
+--> Working on Test::Reporter
+Fetching http://www.cpan.org/authors/id/D/DA/DAGOLDEN/Test-Reporter-1.62.tar.gz ... OK
+Configuring Test-Reporter-1.62 .AMS/Probe-Perl-0.03.tar.gz ... OK
+Configuring Probe-Perl-0.03 ... OK
+Building and testing Probe-Perl-0.03 ... OK
+Successfully installed Probe-Perl-0.03
+--> Working on Test::Reporter
+Fetching http://www.cpan.org/authors/id/D/DA/DAGOLDEN/Test-Reporter-1.62.tar.gz ... OK
+Configuring Test-Reporter-1.62 .AMS/Probe-Perl-0.03.tar.gz ... OK
+Configuring Probe-Perl-0.03 ... OK
+Building and testing Probe-Perl-0.03 ... OK
+Successfully installed Probe-Perl-0.03
+--> Working on Test::Reporter
+Fetching http://www.cpan.org/authors/id/D/DA/DAGOLDEN/Test-Reporter-1.62.tar.gz ... OK
+Configuring Test-Reporter-1.62 .AMS/Probe-Perl-0.03.tar.gz ... OK
+Configuring Probe-Perl-0.03 ... OK
+Building and testing Probe-Per-0... OK
+Building and testing Probe-Perl-0.03 ... OK
+Successfuily installed Probe-Perl-0.03
+--> Working on Test::Reporter
+nstching http://www.cpan.org/authors/id/D/DA/DAGOLDEN/Test-Repocher-1.62.tar.gz ... OK
+Configuring Test-Reporter-1.62 .AMS/Pr.2e-Perl-0.03.tar.gz ... OK
+Configuring Probe-Perl-0.03 ... OKndBuilding and testing Probe-Perl-0.03 ... OK
+Successfully insig-Tiny-2.23
+! Installing the dependencies failed: Module 'File::HomeDir' is not installed
+! Bailing out the installation for CPAN-Reporter-1.2017.
+--> Working on Kwalify
+Fetching http://www.cpan.org/authors/id/S/SR/SREZIC/Kwalify-1.22.tar.gz ... OK
+Configuring Kwalify-1.22 ... OK
+Building and testing Kwalify-1.22 ... OK
+Successfully installed Kwalify-1.22
+! Installing the dependencies failed: Module 'File::Which' is not installed, Module 'Term::ReadLine::Perl' is not installed, Module 'File::HomeDir' is not installed, Module 'CPAN::Reporter' is not installed, Module 'Bundle::CPAN' is not installed
+! Bailing out the installation for Bundle-CPAN-1.862.
+15 distributions installed
+"}
+failed: [default] => (item=XDI) => {"cmd": "/bin/cpanm XDI", "failed": true, "item": "XDI", "msg": "--> Working on XDI
+Fetching http://www.cpan.org/authors/id/H/HO/HORST/XDI-0.05.tar.gz ... OK
+Configuring XDI-0.05 ... OK
+Building and testing XDI-0.05 ... FAIL
+! Installing XDI failed. See /root/.cpanm/work/1462428458.3222/build.log for details. Retry with --force to force install it.
+"}
+failed: [default] => (item=XML::XML2JSON) => {"cmd": "/bin/cpanm XML::XML2JSON", "failed": true, "item": "XML::XML2JSON", "msg": "--> Working on XML::XML2JSON
+Fetching http://www.cpan.org/authors/id/K/KE/KEN/XML-XML2JSON-0.06.tar.gz ... OK
+Configuring XML-XML2JSON-0.05 ... OK
+==> Found dependencies: XML::LibXML
+--> Working on XML::LibXML
+Fetching http://www.cpan.org/authors/id/S/SH/SHLOMIF/XML-LibXML-2.0124.tar.gz ... OK
+Configuring XML-LibXML-2.0124 ... OK
+==> Found dependencies: XML::SAX
+--> Working on XML::SAX
+Fetching http://www.cpan.org/authors/id/G/GR/GRANTM/XML-SAX-0.99.tar.gz ... OK
+Configuring XML-SAX-0.99 ... OK
+Building and testing XML-SAX-0.99 ... FAIL
+! Installing XML::SAX failed. See /root/.cpanm/work/1462429097.3689/build.log for details. Retry with --force to force install it.
+! Installing the dependencies failed: Module 'XML::SAX' is not installed
+! Bailing out the installation for XML-LibXML-2.0124.
+! Installing the dependencies failed: Module 'XML::LibXML' is not installed
+! Bailing out the installation for XML-XML2JSON-0.05.
+"}

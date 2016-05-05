@@ -15,6 +15,7 @@
       - "APR::Table"
       - "BSD::Resource"
       - "Bundle::Apache2"
+      - "Term::ReadLine::Perl"
       - "Bundle::CPAN"
       - "Cache::Memcached"
       - "Carp::Assert::More"
@@ -82,12 +83,21 @@
       - "URI"
       - "URI::Escape"
       - "WWW::Mechanize"
-      - "XDI"
+      #- "XDI"
       - "XML::XML2JSON"
       - "XML::XPath"
       - "YAML::XS"
 
+    rpm_packages:
+      - perl-XML-SAX
+      - perl-File-Which
+      - perl-Term-ReadLine-Gnu
+
   tasks:
+    - name: install rpm packages
+      yum: name={{ item }} state=installed
+      with_items: "{{ rpm_packages }}"
+
     - name: install cpan packages
       cpanm: name={{ item }}
       with_items: "{{ cpan_packages }}"
