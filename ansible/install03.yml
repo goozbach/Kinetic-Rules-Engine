@@ -1,0 +1,10 @@
+---
+- name: recreate install03
+  hosts: all
+  roles:
+    - { role: goozbach.EPEL, epel_testing_enabled: 1 }
+  
+  post_tasks:
+    - name: install mod_perl
+      yum: name=mod_perl state=installed
+    
