@@ -1,0 +1,7 @@
+---
+- name: recreate install03.sh
+  hosts: all
+
+  tasks:
+    - name: install httpd
+      yum: name=httpd state=installed
