@@ -1,0 +1,10 @@
+---
+- name: recreate install04.yml
+  hosts: all
+
+  tasks:
+
+    - name: install geoip
+      yum: name=GeoIP state=installed
+
+   
