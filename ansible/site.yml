@@ -4,3 +4,4 @@
 - include: install02.yml
 - include: install03.yml
 - include: install04.yml
+- include: install05.yml

@@ -1,0 +1,8 @@
+---
+- name: recreate install05
+  hosts: all
+  
+  tasks:
+
+    - name: install cronolog
+      yum: name=cronolog state=installed
