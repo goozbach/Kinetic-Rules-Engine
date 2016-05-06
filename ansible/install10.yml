@@ -1,0 +1,15 @@
+---
+- name: recreate install10
+  hosts: all
+
+  vars:
+
+    default_user: web
+    repourl: "git://github.com/kre/Kinetic-Rules-Engine.git"
+    repodir: "/{{ default_user }}/lib/Kinetic-Rules-Engine"
+
+  tasks:
+    - name: checkout KRE
+      git: repo={{ repourl }} dest={{ repodir }}
+      become: true
+      become_user: "{{ default_user }}"
